@@ -7,12 +7,12 @@ NYC is home to over 25,000 restaurants spread across a diverse range of cuisines
 
 ## Links:
 
-- [Project Report](https://github.com/tobyleung96/Determining-Restaurant-Inspection-Grades/blob/main/FinalProjectReport.md "Project Report")
+- [Project Report](FinalProjectReport.md "Project Report")
 - [Video Walkthrough](https://youtu.be/LzvBBJkOqTo "Video Walkthrough")
 - [Project Slide Deck](https://docs.google.com/presentation/d/14Rh1t7vdxgtANVjzmRkcjj4S989eMAYAR87j2z7losE/edit?usp=sharing "Project Slide Deck")
 - Data Cleaning Jupyter Notebooks:
   * [Initial Data Cleaning](data_cleaning.py)
-  * lskdjfl
+  * [Alternate Data Cleaning](DeterminingRestaurantInspectionGrades_FinalJupyter.ipynb)
 - Machine Learning Jupyter Notebooks:
-  * a;dlsfk
-  * 
+  * [Algorithm Implementation](AlgorithmImplementation.ipynb)
+  * [Random Forest Implementation](RandomForest.ipynb)
