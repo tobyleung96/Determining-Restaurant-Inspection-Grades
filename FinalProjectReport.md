@@ -73,7 +73,9 @@ For our final results, we decided to test logistic regression and random forest 
 
 ## Results
 
-+----------------------+----------------------+----------------------+
+![Results Table](images/media/table1.png)
+
+<!-- +----------------------+----------------------+----------------------+
 | **Linear             | **Logistic           | **Random Forests     |
 | Regression**         | Regression**         | Classification**     |
 |                      |                      |                      |
@@ -94,11 +96,12 @@ For our final results, we decided to test logistic regression and random forest 
 | importance)]{.ul}:   | ]{.u                 |                      |
 | 14.309159417222773   | l}0.8967732407885993 |                      |
 |                      | (89.68%)             |                      |
-+----------------------+----------------------+----------------------+
++----------------------+----------------------+----------------------+ -->
 
 As seen from our results table above, Random Forest Classification has the highest accuracy (\>96%), and thus we used the Random Forests Classification Model to ultimately predict the inspection scores. As mentioned previously, we had to use RMSE for linear regression, and thus we implemented logistic regression and random forest classification in order to better compare our results with other research and test different models. For each of the algorithms we conducted feature engineering to determine feature importance for our models. Below, we have provided 3 plots that output our feature importance results for each of the models. As can be seen from these tables, the linear regression model provided lowest RMSE with the feature number 66. The logistic regression feature importance graph shows that the model is not overfitting, probably because of low weights, and lastly, the random forest classification's feature importance chart shows the 20 features and their relative importance.
 
-+----------------------------------+----------------------------------+
+![Feature Importance](images/media/graph1.png)
+<!-- +----------------------------------+----------------------------------+
 | Linear Regression Feature        | Logistic Regression Feature      |
 | Importance                       | Importance                       |
 |                                  |                                  |
@@ -108,11 +111,10 @@ As seen from our results table above, Random Forest Classification has the highe
 | ![](./images/media/image3.p      | ![](./images/media/image1.p      |
 | ng){width="3.0677088801399823in" | ng){width="3.0567738407699037in" |
 | height="1.8272145669291338in"}   | height="1.8907874015748032in"}   |
-+----------------------------------+----------------------------------+
++----------------------------------+----------------------------------+ -->
 
-  Random Forest Classification Feature Importance
-  --------------------------------------------------------------------------------
-  ![](./images/media/image2.png){width="4.59375in" height="2.552571084864392in"}
+![Random Forest Classification Feature Importance](images/media/graph2.png)
+<!-- ![](./images/media/image2.png){width="4.59375in" height="2.552571084864392in"} -->
 
 ## FINDINGS & CONCLUSION
 
